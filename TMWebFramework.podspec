@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TMWebController"
-  s.version      = "0.0.2"
-  s.summary      = "天马项目 TMWebController."
+  s.name         = "TMWebFramework"
+  s.version      = "0.0.4"
+  s.summary      = "天马项目 TMWebFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -118,8 +118,8 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
-  s.framework  = "TMWebFramework"
+  s.ios.vendored_frameworks = 'TMWebFramework/TMWebFramework.framework'
+  s.framework  = "UIKit", "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
