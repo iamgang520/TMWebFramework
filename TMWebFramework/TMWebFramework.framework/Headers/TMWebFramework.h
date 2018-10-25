@@ -4,7 +4,7 @@
 //
 //  Created by iamgang on 2018/10/8.
 //  Copyright © 2018年 Tianma. All rights reserved.
-//
+//  0.0.6
 
 #import <TMSDK/TMSDK.h>
 
