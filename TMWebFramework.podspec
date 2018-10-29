@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMWebFramework"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "天马项目 TMWebFramework."
 
   # This description is used to generate tags and improve search results.
@@ -138,5 +138,6 @@ Pod::Spec.new do |s|
   s.dependency "TMUserCenter"
   s.dependency "TMShare"
   s.dependency "WebViewJavascriptBridge", "~> 6.0"
+  s.dependency "Masonry"
 
 end
